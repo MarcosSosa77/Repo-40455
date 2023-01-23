@@ -20,4 +20,10 @@ public class Jugador : MonoBehaviour
     {
         Debug.Log("Hola");
     }
+
+    void DecirChau()
+    {
+
+	Debug.Log("Chau");
+    }
 }
