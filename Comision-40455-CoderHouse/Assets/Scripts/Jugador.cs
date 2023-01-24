@@ -23,5 +23,6 @@ public class Jugador : MonoBehaviour
     {
         float velocidadAtaque = 20f;
         Debug.Log("Realizando ataque volador con la velocidad: " +velocidadAtaque);
+        
     }
 }
