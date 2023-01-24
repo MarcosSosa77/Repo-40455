@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Jugador : MonoBehaviour
 {
@@ -16,14 +14,15 @@ public class Jugador : MonoBehaviour
         
     }
 
-    void Saludar()
+    void AtaqueCopado()
     {
-        Debug.Log("Hola");
+        Debug.Log("Realizando ataque copado");
     }
 
-    void DecirChau()
+    void AtaqueVolador()
     {
-
-	Debug.Log("Chau");
+        float velocidadAtaque = 20f;
+        Debug.Log("Realizando ataque volador con la velocidad: " +velocidadAtaque);
+        
     }
 }
